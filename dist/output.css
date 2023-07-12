@@ -560,6 +560,14 @@ video {
   height: 5px;
 }
 
+.h-\[20px\] {
+  height: 20px;
+}
+
+.h-\[40px\] {
+  height: 40px;
+}
+
 .w-\[34px\] {
   width: 34px;
 }
@@ -570,6 +578,18 @@ video {
 
 .w-\[5px\] {
   width: 5px;
+}
+
+.w-\[20px\] {
+  width: 20px;
+}
+
+.w-\[2px\] {
+  width: 2px;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
@@ -608,6 +628,11 @@ video {
 .bg-gray-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
+.bg-gray-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 
 .py-\[6px\] {
@@ -656,4 +681,22 @@ video {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+@media (min-width: 1024px) {
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:justify-center {
+    justify-content: center;
+  }
+
+  .lg\:gap-\[20px\] {
+    gap: 20px;
+  }
 }
